@@ -1,0 +1,95 @@
+<html>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        .card{
+            box-shadow: 0 4px 8px 0;
+            transition: none;
+            max-width: 300px;
+            flex-basis: 300px;
+            flex-grow: 1;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+            align-items: flex-start;
+            overflow: hidden;
+        }
+        .card:hover{
+            box-shadow: 0 8px 16px;
+        }
+        .cotainer {
+            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            max-width: 1200px;
+            
+        }
+        .button {
+            background-color: #03d8e7; 
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        b {
+            text-align: center;
+            font-size: 20px;
+            color: #029aff;
+            
+        }
+        @media (max-width : 400px){
+            header h1{
+                font-size: 1.8rem;
+            }
+            nav ul li {
+                display: block;
+                margin-bottom: 0;
+            }
+            main, asile {
+                padding: 15px;
+            }
+        }
+    </style>
+    <body>
+        <h2>Card</h2>
+<div class="cotainer">
+    <div class="card">
+             <img src="https://marketplace.canva.com/MAASsQyY81c/1/thumbnail_large-1/canva-young-koala%2C-phascolarctos-cinereus%2C-14-months-old-MAASsQyY81c.png" alt="product" width="100%">
+        <h3>หมีโคล่า</h3> 
+        <button class="button" >คลิก</button>
+    </div>
+
+     <div class="card">
+             <img src="https://marketplace.canva.com/MAASsQyY81c/1/thumbnail_large-1/canva-young-koala%2C-phascolarctos-cinereus%2C-14-months-old-MAASsQyY81c.png" alt="product" width="100%">
+        <h4>หมีโคล่า</h4> 
+        <button class="button" >คลิก</button>
+    </div>
+
+     <div class="card">
+             <img src="https://marketplace.canva.com/MAASsQyY81c/1/thumbnail_large-1/canva-young-koala%2C-phascolarctos-cinereus%2C-14-months-old-MAASsQyY81c.png" alt="product" width="100%">
+        <h3>หมีโคล่า</h3> 
+        <button class="button" >คลิก</button>
+    </div>
+
+     <div class="card">
+             <img src="https://marketplace.canva.com/MAASsQyY81c/1/thumbnail_large-1/canva-young-koala%2C-phascolarctos-cinereus%2C-14-months-old-MAASsQyY81c.png" alt="product" width="100%">
+        <h3>หมีโคล่า</h3> 
+        <button class="button" >คลิก</button>
+    </div>
+
+</div>
+    </body>
+</html>
