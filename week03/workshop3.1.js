@@ -13,4 +13,3 @@ if (score < 50) {
     console.log("F")
 }
     return score;
-// 014
